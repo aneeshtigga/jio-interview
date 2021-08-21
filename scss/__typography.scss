@@ -1,0 +1,108 @@
+// here we will create our major fonts styles
+// helvetica now light
+.helvetica_light_base{
+    font-family: 'Helvetica_Now_Light';
+    color: $pri_dark;
+}
+
+.hel_light_26{
+    @extend .helvetica_light_base;
+    font-size: 26px;
+}
+
+.hel_light_22{
+    @extend .helvetica_light_base;
+    font-size: 22px;
+}
+
+.hel_light_16{
+    @extend .helvetica_light_base;
+    font-size: 16px;
+}
+
+.hel_light_12{
+    @extend .helvetica_light_base;
+    font-size: 12px;
+}
+
+.hel_light_26, .hel_light_22, .hel_light_16, .hel_light_12{
+    &.blue{
+        color: $pri_blue;
+    }
+
+    &.gray{
+        color: $pri_gray;
+    }
+}
+
+// helvetica now regular
+.helvetica_regular_base{
+    font-family: 'Helvetica_Now_Regular';
+    color: $pri_dark;
+}
+
+.hel_reg_26{
+    @extend .helvetica_regular_base;
+    font-size: 26px;
+}
+
+.hel_reg_22{
+    @extend .helvetica_regular_base;
+    font-size: 22px;
+}
+
+.hel_reg_16{
+    @extend .helvetica_regular_base;
+    font-size: 16px;
+}
+
+.hel_reg_12{
+    @extend .helvetica_regular_base;
+    font-size: 12px;
+}
+
+.hel_reg_26, .hel_reg_22, .hel_reg_16, .hel_reg_12{
+    &.blue{
+        color: $pri_blue;
+    }
+
+    &.gray{
+        color: $pri_gray;
+    }
+}
+
+// helvetica now bold
+.helvetica_bold_base{
+    font-family: 'Helvetica_Now_Bold';
+    color: $pri_dark;
+}
+
+.hel_bold_26{
+    @extend .helvetica_bold_base;
+    font-size: 26px;
+}
+
+.hel_bold_22{
+    @extend .helvetica_bold_base;
+    font-size: 22px;
+}
+
+.hel_bold_16{
+    @extend .helvetica_bold_base;
+    font-size: 16px;
+}
+
+.hel_bold_12{
+    @extend .helvetica_bold_base;
+    font-size: 12px;
+}
+
+.hel_bold_26, .hel_bold_22, .hel_bold_16, .hel_bold_12{
+    &.blue{
+        color: $pri_blue;
+    }
+    
+    &.gray{
+        color: $pri_gray;
+    }
+}

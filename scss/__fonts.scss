@@ -1,0 +1,16 @@
+// we will import out external fonts here and create our font families here
+
+@font-face {
+    font-family: 'Helvetica_Now_Light';
+    src: url('/fonts/HelveticaNowDisplay-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Helvetica_Now_Regular';
+    src: url('/fonts/HelveticaNowDisplay-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Helvetica_Now_Bold';
+    src: url('/fonts/HelveticaNowDisplay-Bold.otf') format('opentype');
+}
